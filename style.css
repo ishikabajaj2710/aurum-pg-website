@@ -1,0 +1,417 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero p {
+    color: #555;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+    background-color: #f5f5f5;
+}
+
+.highlight-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.highlight-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.highlight-box h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* AMENITIES PAGE */
+.amenities-header {
+    background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+    padding: 80px 0;
+}
+
+.amenities-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.amenities-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* FACILITIES GRID */
+.facilities {
+    padding: 60px 0;
+}
+
+/* BIGGER CARDS */
+.facility-box {
+    background: #ffffff;
+    padding: 40px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 140px;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.facility-box:hover {
+    background: #e0e0e0;
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* HOVER EFFECT */
+.facility-box:hover {
+    background: #000;
+    color: #7d7d7d;
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.facilities {
+    background-color: #f5f5f5;
+}
+
+.room-card {
+    background: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.room-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.room-item {
+    transition: all 0.3s ease;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.faq-item {
+    background: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+
+/* GENERAL SPACING */
+section {
+    padding: 60px 0;
+}
+
+/* BUTTON HOVER */
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ABOUT HEADER */
+.about-header {
+    background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+    padding: 80px 0;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* VALUES */
+.value-box {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.value-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* VISIT SECTION */
+.visit {
+    background-color: #f5f5f5;
+}
+
+/* MAP STYLE */
+.map-container iframe {
+    border-radius: 15px;
+}
+
+/* BUTTON STYLE */
+.visit .btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.visit .btn:hover {
+    transform: scale(1.05);
+}
+
+.footer a {
+    font-weight: 500;
+}
+
+/* FOOTER */
+.footer {
+    background: #0d1b2a;
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+/* TITLE */
+.footer-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* TAGLINE */
+.footer-tagline {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* HEADINGS */
+.footer h5 {
+    margin-bottom: 15px;
+    color: #ff4d6d;
+}
+
+/* LINKS */
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* BOTTOM */
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+/* Instagram color hover */
+.footer a:hover i.fa-instagram {
+    color: #e1306c;
+}
+
+.gallery-slider img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.gallery {
+    background: #f8f9fa;
+}
+
+/* GRID SYSTEM */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+}
+
+/* ITEMS */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* DIFFERENT SIZES (COLLAGE LOOK) */
+.gallery-item.large {
+    grid-row: span 2;
+}
+
+.gallery-item.wide {
+    grid-column: span 2;
+}
+
+/* IMAGE */
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+}
+
+.lightbox-img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* CARD DESIGN */
+.facility-card {
+    background: #ffffff;
+    padding: 35px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+/* HOVER EFFECT */
+.facility-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ICON STYLE */
+.facility-card .icon {
+    font-size: 28px;
+    background: #eef3f7;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXT */
+.facility-card h4 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.facility-card p {
+    color: #666;
+    font-size: 14px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Aurum Comfort PG</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+
+    <!-- LOGO -->
+    <a class="navbar-brand fw-bold" href="index.html">Aurum Comfort PG</a>
+
+    <!-- TOGGLE BUTTON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- LINKS -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="rooms.html">Rooms</a>
+        </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="amenities.html">Amenities</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HEADER -->
+<section class="py-5 text-center">
+    <div class="container">
+        <h1>Book a Visit</h1>
+        <p>Fill the form and connect with us on WhatsApp</p>
+    </div>
+</section>
+
+
+<!-- FORM -->
+<section class="pb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <form id="bookingForm" onsubmit="bookVisit(event)" >
+
+                    <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Phone Number</label>
+                        <input type="text" class="form-control" id="phone" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Preferred Visit Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+
+                    <button type="button" class="btn btn-dark w-100 mt-3" onclick="bookVisit()">
+                     Book Visit
+                    </button>
+
+                </form>
+
+                <p id="errorMsg" class="text-danger mt-3 text-center"></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">FAQs</h2>
+
+        <div class="faq-item">
+            <h5 class="faq-question">What are the check-in timings?</h5>
+            <p class="faq-answer">Check-in by 11 PM, flexible for emergencies.</p>
+        </div>
+
+        <div class="faq-item">
+            <h5 class="faq-question">Is there a security system?</h5>
+            <p class="faq-answer">Yes, 24/7 guard and CCTV monitoring.</p>
+        </div>
+
+        <div class="faq-item">
+            <h5 class="faq-question">What is the refund policy?</h5>
+            <p class="faq-answer">11-month lock-in with security adjusted in last month.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer text-center">
+    <div class="container">
+        <p>©  Aurum Comfort PG</p>
+        <p>G-34AB, Block-G,Vijay Nagar Single Storey, North Campus, Delhi</p>
+        <p>
+                  <a href="https://wa.me/919711252978" target="_blank">WhatsApp</a> 
+            <a href="tel:9711252978">Phone Number: +91 9711252978</a>
+            <p>
+  <a href="https://instagram.com/aurum_comfort" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</p>
+        </p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

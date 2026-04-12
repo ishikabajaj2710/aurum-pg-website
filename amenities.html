@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenities | Aurum Comfort PG</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        .amenities-header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .amenities-header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .amenities-header p {
+            color: #666;
+        }
+
+        /* CARD DESIGN */
+        .facility-card {
+            background: #ffffff;
+            padding: 35px 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: 0.3s ease;
+            height: 100%;
+        }
+
+        /* HOVER */
+        .facility-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* ICON */
+        .facility-card .icon {
+            font-size: 28px;
+            background: #eef3f7;
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* TEXT */
+        .facility-card h4 {
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .facility-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* FOOTER */
+        .footer {
+            padding: 30px 0;
+            background: #fff;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="index.html">Aurum Comfort PG</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="rooms.html">Rooms</a></li>
+        <li class="nav-item"><a class="nav-link active" href="amenities.html">Amenities</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HEADER -->
+<section class="amenities-header">
+    <div class="container">
+        <h1>Our Facilities & Amenities</h1>
+        <p>Everything you need for comfortable student living</p>
+    </div>
+</section>
+
+<!--TRANSFORMED AMENITIES SECTION -->
+<section class="facilities py-5">
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-wifi"></i></div>
+          <h4>High-Speed WiFi</h4>
+          <p>Fast and reliable internet</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <h4>Laundry</h4>
+          <p>2x per week service</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-snowflake"></i></div>
+          <h4>AC Rooms</h4>
+          <p>Cool & comfortable stay</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+  <div class="facility-card">
+    <div class="icon">
+      <i class="fa-solid fa-door-open"></i>
+    </div>
+    <h4>Spacious Cupboards</h4>
+    <p>Spacious cupboards with ample storage</p>
+  </div>
+</div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-shower"></i></div>
+          <h4>Geyser-enabled Bathrooms </h4>
+          <p>24/7 hot water facility with geysers in all bathrooms </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+  <div class="facility-card">
+    <div class="icon">
+      <i class="fa-solid fa-kitchen-set"></i>
+    </div>
+    <h4>In-Room Modular Pantry</h4>
+    <p>In-room modular pantry with essential setup for convenient daily use</p>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="facility-card">
+    <div class="icon">
+      <i class="fa-solid fa-fire-burner"></i>
+    </div>
+    <h4>Induction Cooktop</h4>
+    <p>Individual induction in every room</p>
+  </div>
+</div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-broom"></i></div>
+          <h4>Daily Housekeeping</h4>
+          <p>Clean and hygienic environment</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-droplet"></i></div>
+          <h4>RO Water</h4>
+          <p>Safe drinking water</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+          <h4>4-time Meals</h4>
+          <p>Home-Cooked delicious meals</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-video"></i></div>
+          <h4>CCTV Security</h4>
+          <p>24/7 surveillance</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-user"></i></div>
+          <h4>Female Warden</h4>
+          <p>Caring female warden available for support, safety, and guidance </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-tree"></i></div>
+          <h4>In-house Garden</h4>
+          <p>Peaceful mornings in your own PG</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-tree"></i></div>
+          <h4>Park Nearby</h4>
+          <p>Green & peaceful surroundings of Hakikat Park</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="facility-card">
+          <div class="icon"><i class="fa-solid fa-store"></i></div>
+          <h4>Shops Nearby</h4>
+          <p>Every necessity within reach</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer text-center">
+    <div class="container">
+        <p>© Aurum Comfort PG</p>
+        <p>G-34AB, Block-G, Vijay Nagar Single Storey, North Campus, Delhi</p>
+
+        <a href="https://wa.me/919711252978" target="_blank">WhatsApp</a>
+        <a href="tel:9711252978">Phone Number: +91 9711252978</a>
+
+        <a href="https://instagram.com/aurum_comfort" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
